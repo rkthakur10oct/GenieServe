@@ -1,0 +1,342 @@
+/* styles.css */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #f8f8ff; /* White text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #b8860b; /* Golden background */
+    color: #1a1a1a; /* Dark text */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid #8b6914; /* Darker gold border */
+}
+
+header img.genie-serve-logo {
+    max-width: 100px; /* Increased logo size */
+    height: 100px; /* Ensure the logo is square */
+    border-radius: 50%; /* Make the logo round */
+    vertical-align: middle;
+    border: 2px solid #8b6914; /* Darker gold border */
+}
+
+header h1 {
+    display: inline;
+    margin: 0;
+    font-size: 40px; /* Increased font size */
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif; /* Premium font style */
+}
+
+nav {
+    background-color: #333333; /* Dark grey background */
+    color: #f8f8ff; /* White text */
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 10px 20px;
+}
+
+nav a {
+    color: #f8f8ff; /* White text */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #b8860b; /* Golden text on hover */
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main h2 {
+    color: #f8f8ff; /* White text */
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif; /* Premium font style */
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.whatsapp-link {
+    margin: 30px 0;
+    display: inline-block;
+    padding: 20px;
+    background-color: #25D366; /* WhatsApp green */
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #b8860b; /* Golden border */
+}
+
+.whatsapp-link:hover {
+    background-color: #1ebe5a; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+.whatsapp-link a {
+    text-decoration: none;
+    color: #f8f8ff; /* White text */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align text and icon */
+}
+
+.whatsapp-link img.whatsapp-logo {
+    max-width: 100px; /* Increased logo size */
+}
+
+.message-update {
+    margin-top: 20px;
+}
+
+.message-update label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.message-update input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    max-width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.message-update button {
+    padding: 10px 20px;
+    background-color: #b8860b; /* Golden background */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.message-update button:hover {
+    background-color: #8b6914; /* Darker gold on hover */
+}
+
+footer {
+    background-color: #333333; /* Dark grey background */
+    color: #f8f8ff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    border-top: 5px solid #8b6914; /* Darker gold border */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 34px; /* Adjusted font size for smaller screens */
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .message-update input,
+    .message-update button {
+        width: 100%;
+    }
+
+    .whatsapp-link {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 28px; /* Adjusted font size for smallest screens */
+    }
+
+    .whatsapp-link img.whatsapp-logo {
+        max-width: 50px;
+    }
+
+    footer {
+        padding: 5px 0;
+    }
+}
+
+/* styles.css */
+/* Add this at the bottom of your existing styles.css file for additional styling if necessary */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 10px 0;
+}
+
+ul li strong {
+    color: #b8860b; /* Golden color for emphasis */
+}
+
+main ul {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+/* styles.css */
+/* Add this at the bottom of your existing styles.css file for additional styling if necessary */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 10px 0;
+}
+
+ul li strong {
+    color: #b8860b; /* Golden color for emphasis */
+}
+
+main ul {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #262626; /* Dark background */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #f8f8ff; /* White text */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #333333; /* Dark input background */
+    color: #f8f8ff; /* White text */
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #b8860b; /* Golden background */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #1a1a1a; /* Dark text */
+}
+
+.contact-form button:hover {
+    background-color: #8b6914; /* Darker gold on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 34px; /* Adjusted font size for smaller screens */
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .message-update input,
+    .message-update button {
+        width: 100%;
+    }
+
+    .whatsapp-link {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 28px; /* Adjusted font size for smallest screens */
+    }
+
+    .whatsapp-link img.whatsapp-logo {
+        max-width: 50px;
+    }
+
+    footer {
+        padding: 5px 0;
+    }
+}
